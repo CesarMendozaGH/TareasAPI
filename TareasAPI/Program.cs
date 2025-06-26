@@ -21,7 +21,7 @@ builder.Services.AddDbContext<Bdtareas904Context>(options =>
 builder.Services.AddCors(options =>
     {
 
-        options.AddPolicy("Nueva politica", app =>
+        options.AddPolicy("NuevaPolitica", app =>
         {
             app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
         });
